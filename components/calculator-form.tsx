@@ -66,7 +66,7 @@ export default function CalculatorForm({
           onChange={(e) => setDreamAmount(Number.parseFloat(e.target.value))}
           className="w-full slider-primary"
           style={{
-            background: `linear-gradient(to right, #293895 0%, #293895 ${(dreamAmount / 100000000) * 100}%, #e5e7eb ${(dreamAmount / 100000000) * 100}%, #e5e7eb 100%)`,
+            background: `linear-gradient(to right, #262A42 0%, #262A42 ${(dreamAmount / 100000000) * 100}%, #e5e7eb ${(dreamAmount / 100000000) * 100}%, #e5e7eb 100%)`,
           }}
         />
         <div className="flex justify-between text-xs text-gray-600 mt-2">
@@ -100,7 +100,7 @@ export default function CalculatorForm({
           onChange={(e) => setYears(Number.parseInt(e.target.value))}
           className="w-full slider-primary"
           style={{
-            background: `linear-gradient(to right, #293895 0%, #293895 ${(years / 100) * 100}%, #e5e7eb ${(years / 100) * 100}%, #e5e7eb 100%)`,
+            background: `linear-gradient(to right, #262A42 0%, #262A42 ${(years / 100) * 100}%, #e5e7eb ${(years / 100) * 100}%, #e5e7eb 100%)`,
           }}
         />
         <div className="flex justify-between text-xs text-gray-600 mt-2">
@@ -134,7 +134,7 @@ export default function CalculatorForm({
           onChange={(e) => setInflationRate(Number.parseFloat(e.target.value))}
           className="w-full slider-primary"
           style={{
-            background: `linear-gradient(to right, #293895 0%, #293895 ${((inflationRate - 5) / 10) * 100}%, #e5e7eb ${((inflationRate - 5) / 10) * 100}%, #e5e7eb 100%)`,
+            background: `linear-gradient(to right, #262A42 0%, #262A42 ${((inflationRate - 5) / 10) * 100}%, #e5e7eb ${((inflationRate - 5) / 10) * 100}%, #e5e7eb 100%)`,
           }}
         />
         <div className="flex justify-between text-xs text-gray-600 mt-2">
@@ -168,7 +168,7 @@ export default function CalculatorForm({
           onChange={(e) => setExpectedReturn(Number.parseFloat(e.target.value))}
           className="w-full slider-primary"
           style={{
-            background: `linear-gradient(to right, #293895 0%, #293895 ${((expectedReturn - 5) / 15) * 100}%, #e5e7eb ${((expectedReturn - 5) / 15) * 100}%, #e5e7eb 100%)`,
+            background: `linear-gradient(to right, #262A42 0%, #262A42 ${((expectedReturn - 5) / 15) * 100}%, #e5e7eb ${((expectedReturn - 5) / 15) * 100}%, #e5e7eb 100%)`,
           }}
         />
         <div className="flex justify-between text-xs text-gray-600 mt-2">
@@ -202,7 +202,7 @@ export default function CalculatorForm({
           onChange={(e) => setSavingsAmount(Number.parseFloat(e.target.value))}
           className="w-full slider-primary"
           style={{
-            background: `linear-gradient(to right, #293895 0%, #293895 ${(savingsAmount / 10000000) * 100}%, #e5e7eb ${(savingsAmount / 10000000) * 100}%, #e5e7eb 100%)`,
+            background: `linear-gradient(to right, #262A42 0%, #262A42 ${(savingsAmount / 10000000) * 100}%, #e5e7eb ${(savingsAmount / 10000000) * 100}%, #e5e7eb 100%)`,
           }}
         />
         <div className="flex justify-between text-xs text-gray-600 mt-2">
