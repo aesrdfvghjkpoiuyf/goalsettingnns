@@ -20,12 +20,12 @@ export default function GoalPieChart({ invested_amount, total_earnings }: GoalPi
     {
       name: "Amount Invested",
       value: invested_amount,
-      fill: "#293895", // Direct color assignment for Amount Invested (blue)
+      fill: "#262A42", // Direct color assignment for Amount Invested (blue)
     },
     {
       name: "Total Growth",
       value: total_earnings,
-      fill: "#9fcc3a", // Direct color assignment for Total Growth (green)
+      fill: "#61D48A", // Direct color assignment for Total Growth (green)
     },
   ]
 
